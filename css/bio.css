@@ -1,0 +1,234 @@
+.bio-img {
+    width: 100%;
+    max-width: 300px;
+    min-width: 150px;
+    height: auto;
+    border-radius: 50%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+   
+  }
+  .bio-image-cotainer {
+    padding-top: 7%;
+    color: #000 ;
+    text-align: center;
+    width: 35%;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 5px;
+    margin-bottom: 2%;
+    margin-left: 0%;
+  
+    float:left;
+  }
+
+
+  h3 {
+      font-weight: normal;
+      font-size: 130%;
+  }
+
+.intro{
+    width: 100%;
+    height: 70%;
+
+}
+  .contact-icon{
+    width: 40 px;
+    height: 40px;
+    
+  }
+  a:link {
+    text-decoration: none;
+  }
+  .bio-text{
+    width: 65%;
+    float: right;
+    padding-right: 10%;
+    padding-top: 3%;
+    
+  }
+  .biography
+  {
+      padding-top: 4%;
+      font-family: Arial, Helvetica, sans-serif;
+      color: #CEB888 ;
+
+  }
+
+  .matter {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-weight: normal;
+    font-size: 110%;
+  
+    text-align:justify;
+    line-height: 1.5;
+    word-spacing: 2px;
+    
+    
+  }
+
+.hire-text {
+    color:#782F40;
+    font-family: Arial, Helvetica, sans-serif;
+    word-spacing: 1px;
+    scroll-behavior: smooth;
+   
+   
+
+
+}
+
+.interests 
+{
+float: left;
+width: 50%;
+height: auto;
+font-family: Arial, Helvetica, sans-serif;
+color: #CEB888 ;
+word-spacing: 2px;
+line-height: 1.5;
+
+
+}
+
+.education
+{
+float: right;
+width: 50%;
+height: auto;
+
+font-family: Arial, Helvetica, sans-serif;
+color: #CEB888 ;
+word-spacing: 2px;
+line-height: 1.5;
+
+}
+
+.list {
+    color: #000;;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    -webkit-font-weight: 550 ;
+    font-size: 100%;
+
+}
+
+.hiring {
+
+width: 100%;
+height:auto;
+
+float: left;
+padding-left: 10%;
+font-family: Arial, Helvetica, sans-serif;
+word-spacing: 2px;
+padding-right: 10%;
+background-color: #efefef;
+padding-top:1% ;
+padding-bottom: 3% ;
+
+
+}
+html {
+    scroll-behavior: smooth;
+  }
+
+.univ {
+    font-size: 90%;
+    margin-top: 1%;
+    color: #F56600;
+    font-weight: bold;
+}
+
+.univ_2 {
+    font-size: 90%;
+    margin-top: 1%;
+    color: #005A43;
+    font-weight: bold;
+}
+
+
+.hire
+{
+    color: #CEB888 ;
+}.fsu {
+
+    font-weight: bold;
+    color: #782F40;
+}
+
+
+  
+  @media (max-width: 1500px) 
+  {
+     
+  }
+  
+  @media (max-width: 1250px) 
+  {
+      .bio-text{
+          
+         padding-right: 10%;
+          width: 100%;
+          padding-left: 10%
+        
+          
+      }
+  }
+
+
+  @media(max-width: 1030px) {
+
+      .bio-text{
+          padding-top: 5%;
+        
+          
+      }
+  }
+  @media(max-width: 700px) {
+
+    .bio-text{
+        padding-top: 10%;
+      
+        
+    }
+}
+
+@media(max-width: 1250px) {
+
+    .bio-image-cotainer{
+        text-align: center;
+        width:100%;
+        padding-left: 0%;
+        padding-right: 0%;
+        margin-left: 0%;
+        float:left
+      
+        
+    }
+}
+
+
+
+@media (max-width: 460px) {
+    h3 {
+        font-size: 100%;
+        
+    }
+    
+}
+
+@media (max-width: 1000px)
+{
+    .interests{
+        width: 100%;
+
+    }
+}
+@media (max-width: 1000px)
+{
+    .education{
+        width: 100%;
+        
+    }
+}
